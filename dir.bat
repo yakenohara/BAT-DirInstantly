@@ -57,9 +57,9 @@ dir /b /s /on "%~dp0" > "%~dp0%STR_OUT_FILE_NAME%"
 ::  - `~`  
 ::     `"` (ダブルクォート) を除く  
 ::  - `d`  
-::     実行されているファイルのパス  
+::     ドライブ文字だけに展開する  
 ::  - `p`  
-::     実行されているファイルのパス  
+::     ファイル名を除くパスの部分に展開する  
 
 :: 出力ファイルを開く
 :: https://learn.microsoft.com/ja-jp/windows-server/administration/windows-commands/start
